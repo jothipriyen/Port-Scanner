@@ -1,6 +1,5 @@
 import socket
 
-# Get target from user
 target = input("Enter target IP : ")
 print(f"\n[🔍] Scanning {target}...\n")
 
@@ -15,3 +14,4 @@ for port in range(1, 1025):
     sock.close()
 
 print("\n[✔] Scan complete.")
+
